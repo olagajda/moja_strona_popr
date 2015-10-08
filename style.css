@@ -11,32 +11,35 @@
 }
 
 * {
-    font-family: "oswald_regularregular";
     box-sizing: border-box;
+    font-family: "oswald_regularregular";
     letter-spacing: 1px;
 }
 
 header {
     font-size: 30px;
-    text-transform: uppercase;
     margin-top: 5px;
-    width: 300px;
     margin-left: auto;
     margin-right: auto;
+    text-transform: uppercase;
     text-align: center;
+    width: 300px;
 }
 
+/*menu*/
+
 nav {
-    text-transform: uppercase;
-    width: 600px;
     margin-left: 273px;
     margin-bottom: 40px;
+    text-transform: uppercase;
+    width: 600px;
 }
 
 li {
     display: inline-block;
     font-size: 30px;
     list-style-type: none;
+    margin-right: 10px;
 }
 
 a {
@@ -66,17 +69,16 @@ a:active {
 main {
     font-size: 29px;
     line-height: 160%;
-    width: 800px;
     margin-left: auto;
     margin-right: auto;
+    width: 800px;
 }
 
 .cv dd {
+    line-height: 130%;
+    margin-bottom: 30px;
     position: relative;
     right: 40px;
-    margin-bottom: 30px;
-    line-height: 110%;
-
 }
 
 .cv dt {
@@ -99,25 +101,37 @@ figcaption {
 }
 
 .example1 {
-    width: 675px;
-    position:relative;
     left: -200px;
+    position:relative;
+    width: 675px;
 }
 
 .example2 {
-    width: 415px;
-    position:relative;
     left: 490px;
+    position:relative;
     top: -450px;
+    width: 415px;
 }
 
 .example3 {
-    width: 550px;
-    position:relative;
     left: 200px;
+    position:relative;
     top: -400px;
+    width: 550px;
 }
 
 figure a:hover {
     opacity: .5;
+}
+
+.contact {
+    line-height: 80%;
+    margin-top: 60px;
+}
+
+.portrait {
+    bottom: 0;
+    height: 500px;
+    position: fixed;
+    right: 100px;
 }
