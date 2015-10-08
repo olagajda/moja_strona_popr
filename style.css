@@ -46,6 +46,11 @@ a {
     text-decoration: none;
 }
 
+/*podkreslenie w menu*/
+
+.current {
+    text-decoration: underline;
+}
 
 a:link {
     color: black
@@ -135,3 +140,4 @@ figure a:hover {
     position: fixed;
     right: 100px;
 }
+
